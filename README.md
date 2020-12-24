@@ -13,8 +13,7 @@ Steps to first deploy
 Steps to build and run
 * - cd /opt/services
 * - sudo git clone https://github.com/eumagnun/config-server.git
-* - cd config-server/config-server
+* - cd eureka-server/eureka-server
 * - sudo mvn install
-* - sudo java -jar target/config-server-0.0.1-SNAPSHOT.jar
-* - sudo docker build -t springio/gs-spring-boot-docker .
+* - sudo docker build -t eumagnun/eureka .
 * - sudo docker run -d -p 8080:8888 springio/gs-spring-boot-docker
