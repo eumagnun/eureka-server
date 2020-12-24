@@ -12,7 +12,7 @@ Steps to first deploy
 
 Steps to build and run
 * - cd /opt/services
-* - sudo git clone https://github.com/eumagnun/config-server.git
+* - sudo git clone https://github.com/eumagnun/eureka-server.git
 * - cd eureka-server/eureka-server
 * - sudo mvn install
 * - sudo docker build -t eumagnun/eureka-server .
