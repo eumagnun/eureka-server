@@ -15,5 +15,5 @@ Steps to build and run
 * - sudo git clone https://github.com/eumagnun/config-server.git
 * - cd eureka-server/eureka-server
 * - sudo mvn install
-* - sudo docker build -t eumagnun/eureka .
-* - sudo docker run -d -p 8080:8888 springio/gs-spring-boot-docker
+* - sudo docker build -t eumagnun/eureka-server .
+* - sudo docker run -d -p 80:8761 eumagnun/eureka-server
